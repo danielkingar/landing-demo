@@ -1,0 +1,37 @@
+:root {
+  --color-primary: #603809;
+  --color-secondary: #707070;
+  --color-accent: #f9c06a;
+  --color-text-light: #ffffff;
+  --color-text-dark: #1e1e1e;
+  --color-text-muted: #ccc7c7;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  background-color: #ffffff;
+  color: var(--color-secondary);
+}
+
+.container {
+  width: 100%;
+  max-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 53px;
+  padding-right: 53px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
